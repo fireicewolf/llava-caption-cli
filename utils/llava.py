@@ -33,7 +33,7 @@ class Llava:
             split_in_gpus: [List[float]] = None,
             n_ctx: int = 2048,
             verbose: bool = False
-    ) -> Llama:
+    ):
         chat_handler = Llava15ChatHandler(clip_model_path=str(mmproj_model_path), verbose=verbose) \
             if chat_format == "llava-1-5" \
             else Llava16ChatHandler(clip_model_path=str(mmproj_model_path), verbose=verbose)
@@ -191,5 +191,5 @@ class Llava:
             self.logger.info(f'Unloading {self.model_name}...')
             start = time.monotonic()
             del self.llm
-            del self.model_name
             self.logger.info(f'{self.model_name} unloaded in {time.monotonic() - start:.1f}s.')
+            del self.model_name
