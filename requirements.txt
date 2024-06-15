@@ -1,0 +1,6 @@
+llama_cpp_python==0.2.78
+numpy==1.26.4
+opencv-python-headless==4.10.0.82
+pillow==10.3.0
+tqdm==4.66.4
+requests==2.32.3

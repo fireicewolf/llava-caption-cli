@@ -1,0 +1,249 @@
+{
+    "llava-v1.6-34b.Q3_K_XS": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-1.6-34b.Q3_K_XS.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-1.6-34b.Q3_K_XS.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-1.6-34b.Q3_K_XS.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-1.6-34b.Q3_K_XS.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q3_K_M": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q3_K_M.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q3_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q3_K_M.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q3_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q4_K_M": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q4_K_M.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q4_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q4_K_M.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q4_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q5_K_S": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q5_K_S.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q5_K_S.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q5_K_S.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q5_K_S.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q5_K_M": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q5_K_M.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q5_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q5_K_M.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q5_K_M.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q6_K": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q6_K.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q6_K.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q6_K.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q6_K.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.6-34b.Q8_0": {
+        "chat_format": "llava-1-6",
+        "huggingface": {
+            "repo_id": "cjpais/llava-v1.6-34B-gguf",
+            "revision": "main",
+            "model": "llava-v1.6-34b.Q8_0.gguf",
+            "model_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/llava-v1.6-34b.Q8_0.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/cjpais/llava-v1.6-34B-gguf/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/llava-v1.6-34B-gguf",
+            "revision": "master",
+            "model": "llava-v1.6-34b.Q8_0.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=llava-v1.6-34b.Q8_0.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/llava-v1.6-34B-gguf/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-13b.q4_k": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-13b",
+            "revision": "main",
+            "model": "ggml-model-q4_k.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-q4_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-13b",
+            "revision": "master",
+            "model": "ggml-model-q4_k.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=ggml-model-q4_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-13b.q5_k": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-13b",
+            "revision": "main",
+            "model": "ggml-model-q5_k.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-q5_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-13b",
+            "revision": "master",
+            "model": "ggml-model-q5_k.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=ggml-model-q5_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-13b.f16": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-13b",
+            "revision": "main",
+            "model": "ggml-model-f16.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/ggml-model-f16.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-13b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-13b",
+            "revision": "master",
+            "model": "ggml-model-f16.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=ggml-model-f16.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-13b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-7b.q4_k": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-7b",
+            "revision": "main",
+            "model": "ggml-model-q4_k.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-q4_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-7b",
+            "revision": "master",
+            "model": "ggml-model-q4_k.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=ggml-model-q4_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-7b.q5_k": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-7b",
+            "revision": "main",
+            "model": "ggml-model-q5_k.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-q5_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-7b",
+            "revision": "master",
+            "model": "ggml-model-q5_k.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=ggml-model-q5_k.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    },
+    "llava-v1.5-7b.f16": {
+        "chat_format": "llava-1-5",
+        "huggingface": {
+            "repo_id": "mys/ggml_llava-v1.5-7b",
+            "revision": "main",
+            "model": "ggml-model-f16.gguf",
+            "model_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/ggml-model-f16.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://huggingface.co/mys/ggml_llava-v1.5-7b/resolve/main/mmproj-model-f16.gguf"
+        },
+        "modelscope": {
+            "repo_id": "fireicewolf/ggml_llava-v1.5-7b",
+            "revision": "master",
+            "model": "ggml-model-f16.gguf",
+            "model_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=ggml-model-f16.gguf",
+            "mmproj": "mmproj-model-f16.gguf",
+            "mmproj_url": "https://www.modelscope.cn/api/v1/models/fireicewolf/ggml_llava-v1.5-7b/repo?Revision=master&FilePath=mmproj-model-f16.gguf"
+        }
+    }
+}
