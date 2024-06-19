@@ -30,8 +30,8 @@ Python 3.10 works fine.
 Open a shell terminal and follow below steps:
 ```shell
 # Clone this repo
-git clone https://github.com/fireicewolf/wd14-tagger-cli.git
-cd wd14-tagger-cli
+git clone https://github.com/fireicewolf/llava_caption_cli.git
+cd llava_caption_cli
 
 # create a Python venv
 python -m venv .venv
