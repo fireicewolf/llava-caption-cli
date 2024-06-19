@@ -133,7 +133,7 @@ def download(
 
                 except:
                     logger.warning('huggingface_hub not installed or download via it failed, '
-                                        'retrying with URL method to download...')
+                                   'retrying with URL method to download...')
                     model_path, tags_csv_path = download_choice(
                         model_info,
                         model_site,

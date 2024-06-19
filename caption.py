@@ -6,7 +6,6 @@ from pathlib import Path
 
 from utils.download import download
 from utils.llava import Llava
-
 from utils.logger import Logger
 
 
@@ -27,7 +26,7 @@ def main(args):
     log_file_path = data_dir_path.parent if os.path.exists(data_dir_path.parent) else workspace_path
 
     log_time = datetime.now().strftime('%Y%m%d_%H%M%S')
-    caption_failed_list_file = f'Caption_failed_list_{log_time}.txt'
+    # caption_failed_list_file = f'Caption_failed_list_{log_time}.txt'
 
     if os.path.exists(data_dir_path):
         log_name = os.path.basename(data_dir_path)
@@ -101,33 +100,19 @@ def main(args):
     with open(config_file, 'r', encoding='utf-8') as config_json:
         datas = json.load(config_json)
     chat_format = datas[model_name]["chat_format"]
-    split_in_gpus = [float(part.strip()) for part in args.split_in_gpus.split(",")] if args.gpus > 1 else None
-    my_llava = Llava(my_logger)
-    my_llava.load_model(
-        model_name=model_name,
+
+    my_llava = Llava(
+        logger=my_logger,
+        args=args,
         base_model_path=model_path,
         mmproj_model_path=mmproj_path,
-        chat_format=chat_format,
         use_gpu=False if args.use_cpu else True,
-        gpus=args.gpus,
-        split_in_gpus=split_in_gpus,
-        n_ctx=args.n_ctx,
-        verbose=args.verbose
+        chat_format=chat_format
     )
+    my_llava.load_model()
 
     # Inference
-    my_llava.inference(
-        system_message=str(args.system_message),
-        user_prompt=str(args.user_prompt),
-        temp=args.temperature,
-        max_tokens=args.max_tokens,
-        datas_dir=Path(args.data_path),
-        custom_caption_save_path=args.custom_caption_save_path,
-        recursive=args.recursive,
-        caption_extension=args.caption_extension,
-        not_overwrite=args.not_overwrite,
-        image_size=args.image_size
-    )
+    my_llava.inference()
 
     # Unload models
     my_llava.unload_model()
