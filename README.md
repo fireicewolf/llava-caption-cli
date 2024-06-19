@@ -70,7 +70,7 @@ path for data
 
 `--recursive`
 
-Will include all support images format in your input datasets path and its subpath.
+Will include all support images format in your input datasets path and its sub-path.
 
 `config`
 
