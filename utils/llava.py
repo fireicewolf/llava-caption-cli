@@ -178,7 +178,7 @@ class Llava:
                     caption_file = os.path.join(custom_caption_save_path, caption_file) + caption_extension
 
                     # Make dir if not exist.
-                    os.makedirs(os.path.join(str(caption_file)[:len(os.path.basename(caption_file))]), exist_ok=True)
+                    os.makedirs(os.path.join(str(caption_file)[:-len(os.path.basename(caption_file))]), exist_ok=True)
 
                 else:
                     caption_file = os.path.splitext(image_path)[0] + caption_extension
