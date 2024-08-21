@@ -126,8 +126,8 @@ def download(
                         filename=model_hf_info["mmproj"],
                         revision=model_hf_info["revision"],
                         local_dir=models_save_path if not use_sdk_cache else None,
-                        local_dir_use_symlinks=False if not use_sdk_cache else "auto",
-                        resume_download=True,
+                        # local_dir_use_symlinks=False if not use_sdk_cache else "auto",
+                        # resume_download=True,
                         force_download=force_download
                     )
 
@@ -161,7 +161,7 @@ def download(
                         model_id=repo_id,
                         file_path=model_ms_info["model"],
                         revision=model_ms_info["revision"],
-                        cache_dir=models_save_path if not use_sdk_cache else None,
+                        local_dir=models_save_path if not use_sdk_cache else None,
                     )
 
                     logger.info(f'Will download mmproj from modelscope repo: {repo_id}')
@@ -169,7 +169,7 @@ def download(
                         model_id=repo_id,
                         file_path=model_ms_info["mmproj"],
                         revision=model_ms_info["revision"],
-                        cache_dir=models_save_path if not use_sdk_cache else None,
+                        local_dir=models_save_path if not use_sdk_cache else None,
                     )
                 except:
                     logger.warning('modelscope not installed or download via it failed, '
