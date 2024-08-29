@@ -101,7 +101,7 @@ class Llava:
             [image for image in glob.glob(path_to_find, recursive=recursive)
              if image.lower().endswith(SUPPORT_IMAGE_FORMATS)]),
             key=lambda filename: (os.path.splitext(filename)[0])
-        ) if not os.path.isfile(datas_dir) else str(datas_dir) \
+        ) if not os.path.isfile(datas_dir) else [str(datas_dir)] \
             if str(datas_dir).lower().endswith(SUPPORT_IMAGE_FORMATS) else None
 
         if image_paths is None:
